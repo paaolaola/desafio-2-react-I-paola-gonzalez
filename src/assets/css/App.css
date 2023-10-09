@@ -29,19 +29,18 @@
     nav .menu {
         display: flex;
         list-style: none;
-        padding: 0; /* Elimina el relleno predeterminado de la lista */
+        padding: 0;
         margin: 0;
     }
 
     nav .menu li {
-        margin-right: 15px;
+        margin-right: 20px;
     }
 
     li a {
         display: flex;
         border: 1px dotted black;
         border-radius: 5px;
-        padding: 10px;
     }
 
     header .menu a {
@@ -50,10 +49,31 @@
         text-decoration: none;
         color: rgb(172, 93, 135);
         transition: color 0.3s;
+        padding: 10px;
     }
 
     header .menu a:hover {
         background-color: rgb(232, 232, 232);
+    }
+    .contacto {
+        list-style: none;
+        border-left: 1px solid black;
+        height: 50px;
+    }
+
+    img {
+        width: 400px;
+        height: 320px;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .svgs {
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 50%;
     }
 }
 
@@ -70,27 +90,49 @@
     nav .menu {
         display: flex;
         flex-direction: row;
-
+        align-items: center;
         list-style: none;
     }
 
     li a {
         display: flex;
+        margin: 10px;
         border: 1px dotted black;
         border-radius: 5px;
-        padding: 10px;
     }
 
     header .menu a {
-        margin: 10px;
         font-weight: 700;
         text-decoration: none;
         color: rgb(172, 93, 135);
         transition: color 0.3s;
+        padding: 10px;
     }
 
     header .menu a:hover {
         background-color: rgb(232, 232, 232);
+    }
+
+    .contacto {
+        list-style: none;
+        border-left: 1px solid black;
+        margin-left: 10px;
+    }
+    img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .svgs {
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 50%;
     }
 }
 
@@ -123,30 +165,12 @@ svg {
     background-color: rgb(232, 232, 232);
 }
 
-img {
-    width: 400px;
-    height: 320px;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.svgs {
-    border: 1px solid black;
-    border-radius: 20px;
-    width: 50%;
-}
-
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
-}
-div {
-    margin-bottom: 1rem;
+
+    padding: 10px;
 }
 
 .inputs {
@@ -166,4 +190,12 @@ div {
     width: 100%;
     border-radius: 10px;
     padding: 0.5rem 2rem;
+}
+.bi {
+    width: 20%;
+    color: rgb(126, 126, 126);
+}
+div.pass {
+    display: flex;
+    align-items: center;
 }

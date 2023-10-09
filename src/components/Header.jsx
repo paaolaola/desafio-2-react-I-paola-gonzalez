@@ -22,9 +22,9 @@ const Header = () => {
                             <li>
                                 <a href="#">Cianotipia</a>
                             </li>
-                            <li>
-                                <a href="#">Contacto</a>
-                            </li>
+                            <a className="contacto" href="#">
+                                Contacto
+                            </a>
                         </ul>
                     </nav>
                 </div>
