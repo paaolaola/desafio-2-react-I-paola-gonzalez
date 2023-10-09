@@ -7,6 +7,8 @@ Currently, two official plugins are available:
 -   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 -   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Forks compañeros
-Link fork 1 - commit
-Link fork 2 - commit
+Forks - commits compañeros (se agregó la indicacion de la cantidad de caracteres minimos en los password)
+
+Link fork 1: https://github.com/paaolaola/Desafio18AdriAlex (Adriana Borjas)
+
+Link fork 2: https://github.com/paaolaola/react2 (Sebastian Alvarez)
