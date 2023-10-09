@@ -41,7 +41,7 @@ const Formulario = () => {
         }
 
         if (pass.length < 6) {
-            setError("* La contraseña debe tener al menos 8 caracteres");
+            setError("* La contraseña debe tener al menos 6 caracteres");
             return;
         }
 
