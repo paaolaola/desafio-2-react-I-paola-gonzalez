@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap");
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+
+h2 {
+    letter-spacing: 10px;
+}

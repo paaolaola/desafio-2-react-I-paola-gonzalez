@@ -1,0 +1,169 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+@media screen and (min-width: 768px) {
+    header {
+        background-color: rgb(243, 243, 243);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    }
+
+    .logo-camera svg {
+        fill: rgb(172, 93, 135);
+    }
+    .header-title {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    nav .menu {
+        display: flex;
+        list-style: none;
+        padding: 0; /* Elimina el relleno predeterminado de la lista */
+        margin: 0;
+    }
+
+    nav .menu li {
+        margin-right: 15px;
+    }
+
+    li a {
+        display: flex;
+        border: 1px dotted black;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    header .menu a {
+        margin-left: 1rem;
+        font-weight: 700;
+        text-decoration: none;
+        color: rgb(172, 93, 135);
+        transition: color 0.3s;
+    }
+
+    header .menu a:hover {
+        background-color: rgb(232, 232, 232);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-camera svg {
+        fill: rgb(172, 93, 135);
+    }
+    .header-title {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    nav .menu {
+        display: flex;
+        flex-direction: row;
+
+        list-style: none;
+    }
+
+    li a {
+        display: flex;
+        border: 1px dotted black;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    header .menu a {
+        margin: 10px;
+        font-weight: 700;
+        text-decoration: none;
+        color: rgb(172, 93, 135);
+        transition: color 0.3s;
+    }
+
+    header .menu a:hover {
+        background-color: rgb(232, 232, 232);
+    }
+}
+
+main {
+    background-color: rgb(89, 146, 246);
+    color: black;
+    margin: 30px;
+    padding: 2rem;
+}
+
+svg {
+    width: 50px;
+    height: 100px;
+}
+
+.ig,
+.github,
+.linkedin {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.ig:hover,
+.github:hover,
+.linkedin:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+img {
+    width: 400px;
+    height: 320px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.svgs {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+div {
+    margin-bottom: 1rem;
+}
+
+.inputs {
+    width: 50%;
+}
+.button-color {
+    margin-top: 30px;
+    width: 100%;
+    background-color: rgb(172, 93, 135);
+    color: aliceblue;
+    border-style: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.alert p {
+    width: 100%;
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+}
